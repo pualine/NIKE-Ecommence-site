@@ -1,0 +1,203 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+.Big-wrapper {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(4, 122, 231, 0.8),
+      rgba(4, 100, 243, 0.8)
+    ),
+    url("../image/girlRuning.jpg");
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  font-family: sans-serif;
+}
+
+.bigNav {
+  display: flex;
+  height: 12%;
+}
+
+.navbar-left {
+  flex-basis: 70%;
+  border-bottom: 1px solid #82abf1;
+}
+
+.mainNav {
+  display: flex;
+  align-items: center;
+  padding: 10px 50px 10px 50px;
+}
+
+.mainNav ul {
+  margin-left: 20px;
+  z-index: 2;
+}
+
+.mainNav ul li {
+  margin-left: 0 10px;
+  padding: 0 5px 5px 30px;
+  display: inline-block;
+}
+
+.mainNav ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.navbar-right {
+  flex-basis: 30%;
+  background-color: #fff;
+}
+
+.navbar-right ul {
+  float: right;
+  padding: 10px 50px 10px 50px;
+}
+
+.navbar-right ul li {
+  display: inline-block;
+  list-style: none;
+  margin-left: 40px;
+}
+
+/* Content */
+.bigContent {
+  display: flex;
+  height: 88%;
+}
+
+.content-left {
+  flex-basis: 70%;
+  position: relative;
+}
+
+.content-right {
+  flex-basis: 30%;
+  position: relative;
+  background: #fff;
+}
+
+.Upper-text {
+  left: 15%;
+  top: 10%;
+  position: absolute;
+  color: lightblue;
+  opacity: 0.5;
+}
+.Upper-text h1 {
+  font-size: 120px;
+  margin-left: 120px;
+  font-style: italic;
+  line-height: 90px;
+}
+.Upper-text h2 {
+  font-size: 60px;
+  margin-top: -95px;
+}
+.bottom-text {
+  left: 78%;
+  top: 60%;
+  bottom: 10%;
+  position: absolute;
+  color: lightblue;
+  opacity: 0.5;
+}
+.bottom-text h1 {
+  font-size: 55px;
+}
+.bottom-text h2 {
+  font-size: 40px;
+  margin-top: -55px;
+}
+.bottom-text h3 {
+  font-size: 35px;
+  margin-top: -48px;
+  margin-left: 120px;
+}
+.content-left img {
+  top: -30%;
+  left: 50%;
+  position: absolute;
+  z-index: 1;
+}
+
+.content-right img {
+  top: -18%;
+  left: -10%;
+  position: absolute;
+}
+
+/* divs */
+.extraProduct {
+  display: flex;
+  margin: 40px auto;
+}
+.extraProduct div img {
+  margin-top: 20px;
+  position: unset;
+  /* margin-left: 90px; */
+}
+
+.extra-info {
+  padding: 30px;
+  margin-bottom: 50px;
+  flex: 1;
+}
+
+/* divs */
+.extra-info div:nth-child(1) {
+  background-color: #999;
+}
+
+.extra-info div:nth-child(2) {
+  background-color: rgb(23, 7, 250);
+}
+.extra-info div:nth-child(3) {
+  background-color: rgb(139, 4, 94);
+}
+.extra-info div:nth-child(4) {
+  background-color: rgb(241, 100, 6);
+}
+
+.product-info {
+  margin-left: 35%;
+  margin-top: 70%;
+}
+
+.product-info h2 {
+  margin-top: -10%;
+  color: #999;
+}
+.product-info h1 {
+  color: #999;
+  margin-top: -70px;
+}
+
+.product-info img {
+  margin-top: 60%;
+  margin-left: 60px;
+}
+
+.product-info h3 {
+  margin-top: 120px;
+}
+.cart p {
+  width: 150px;
+  height: 30px;
+  color: #fff;
+  padding-top: 10px;
+  text-align: center;
+  background-color: rgb(226, 97, 4);
+}
+.cart a {
+  text-decoration: none;
+}
+
+.cart p:hover {
+  color: rgb(226, 97, 4);
+  background-color: rgb(221, 10, 10);
+}
